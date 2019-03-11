@@ -1,0 +1,23 @@
+# непосредственные зависимости проекта
+# суб-зависимости тут указывать НЕ нужно
+# кроме случаев когда они опциональны для суб-зависимостей (hiredis)
+# они должны быть прописаны в setup.py суб-зависимостей
+# версии пакетов тоже не нужно указывать,
+# кроме случаев когда они принципиальны (добавляйте коммент почему это так)
+#
+# requirements.txt компилируется командой:
+# pip install -U pip setuptools pip-tools
+# pip-compile requirements.in
+#
+# TODO1: перенесите пакеты http:// в PyPI.ostrovok.in, инструкция: https://gitlab.ostrovok.ru/ostrovok/docker-pypiserver - CHECK
+# TODO2: допинайте a.karev@ убрать requirements.txt из ota-django и обновите его версию - why?
+# TODO3: посмотрите на список зависимостей ниже, и удалите всё, что нужно этим зависимостям, а не самому проекту partner - CHECK
+
+--index-url=https://pip.ostrovok.in/simple/
+
+# Following lines are sorted
+aiohttp                         # async http client/server, for backoffice/widgets
+aioredis                        # aioredis
+gunicorn
+aiohttp_sse
+aiojobs

@@ -1,0 +1,16 @@
+black==18.9b0
+colorlog==4.0.2
+flake8==3.6.0
+ipdb==0.11
+ipython==7.2
+isort==4.3.4
+jupyter==1.0.0
+pipdeptree==0.13.0
+prompt-toolkit==2.0.7
+pydevd==1.4.0
+recommonmark==0.4.0
+sphinx_rtd_theme==0.4.1
+sphinx-markdown-tables==0.0.9
+sphinx==1.8.0
+sphinxcontrib-confluencebuilder==0.9
+vulture==1.0
